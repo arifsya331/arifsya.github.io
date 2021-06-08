@@ -4,27 +4,25 @@
 }
 .btn-name{
     width:50%; margin-bottom:10px;
-    flex: auto;
-    display:flex;
-    width:50%
+    flex:auto;margin:auto;
+    width:50%;
     }
 .tentang-kami{
-    flex:auto
+    flex:auto;height:310px;
 }
 }
-@media all and(max-width:670px){
-.tentang-kami p{
-        font-size:50%
+@media all and (max-width: 670px) {
+    .tentang-kami{
+        height:400px;
     }
-.tentang-kami img{
-  height:50%;
+    .tentang-kami p{
+        font-size:75%;
+    }
+    .tentang-kami img{
+        height:50%;
        }
     .btn-name{
-    width:100%; margin-bottom:10px;
-    flex: auto;
-    width:50%;flex-direction: column;
+    flex:auto;margin:auto;
+    width:50%;
     }
-    .tentang-kami{
-    flex:auto;
-    }
-}
+  }
