@@ -6,9 +6,10 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 .tentang-kami{
     background-color: rgb(224, 223, 223);
-    text-align:center;height:300px;
+    text-align:center;height:350px;position:relative;
+}
 .tentang-kami h3{
-    font-size:20px;padding-top:10px; padding-bottom:10px;color:rgb(175, 6, 6);
+    font-size:20px;padding-top:5px; padding-bottom:10px;color:rgb(175, 6, 6);
 }
 .tentang-kami h4{
     font-size:18px;padding-bottom:5px;color:rgb(175, 6, 6);
@@ -21,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 .btn-name{
     float: center;
-    margin: 10px 0;
+    margin: 10px 0;margin-bottom:10px;
 }
 .btn{
     padding:10px 24px;
@@ -29,7 +30,7 @@ h1, h2, h3, h4, h5, h6, p, div {
     opacity:0.7;
 }
 btn:hover{
-    opacity:1;
+    opacity:1
 }
 .name{
     background-color: rgb(201, 198, 198);margin-left:10px;
