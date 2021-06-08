@@ -2,13 +2,14 @@
 .tentang-kami img{
  height:50%;
 }
-.btn{
+.btn-name{
     width:50%; margin-bottom:10px;
     flex: auto;
+    display:flex;
     width:50%
     }
 .tentang-kami{
-    flex:auto;
+    flex:auto
 }
 }
 @media all and(max-width:670px){
@@ -16,14 +17,14 @@
         font-size:50%
     }
 .tentang-kami img{
-        height:50%;
+  height:50%;
        }
-    .btn{
+    .btn-name{
     width:100%; margin-bottom:10px;
     flex: auto;
-    width:50%
+    width:50%;flex-direction: column;
     }
     .tentang-kami{
-        flex:auto;
+    flex:auto;
     }
 }
