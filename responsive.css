@@ -1,0 +1,29 @@
+@media all and (max-width:1000px){
+.tentang-kami img{
+ height:50%;
+}
+.btn{
+    width:50%; margin-bottom:10px;
+    flex: auto;
+    width:50%
+    }
+.tentang-kami{
+    flex:auto;
+}
+}
+@media all and(max-width:670px){
+.tentang-kami p{
+        font-size:50%
+    }
+.tentang-kami img{
+        height:50%;
+       }
+    .btn{
+    width:100%; margin-bottom:10px;
+    flex: auto;
+    width:50%
+    }
+    .tentang-kami{
+        flex:auto;
+    }
+}
